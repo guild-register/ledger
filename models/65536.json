@@ -1,0 +1,168 @@
+{
+ "countersignature": {
+  "countersigned_at_utc": "2026-10-28T13:15:07Z",
+  "record_sha256": "311265d21ebcec73717e8addb5c5874ed4cd4884f47715c9b5b93fb348cda8f2",
+  "register_key_id": "97052368d6a81754",
+  "register_signature": "9f9f8bf42d140bdb13bcf2ad59e6f6784df3b8f61d8c2b17aab6c771da5889b70713bf6ad94dcdcd233f557d089bf8cec97351dccb56e7e86564c5615704ef06",
+  "serial": 65536
+ },
+ "machine_key_id": "392a6e0303aac31a",
+ "machine_public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjfv1LSFfuThgTdqxrIWIUH8GuRWVv6xMY2uKj5o2F94=\n-----END PUBLIC KEY-----\n",
+ "record": {
+  "artist_id": "chris_green_dataset_bingo",
+  "artist_mark": "BIN",
+  "artist_name": "Bingo",
+  "consent": {
+   "date": "2026-09-08",
+   "party": "Chris Green",
+   "scope": {
+    "commercial_outputs": true,
+    "generate": "platform_users"
+   },
+   "statement_sha256": "e34e32ebc7c8231ddc4d9e2cc3972c4a70531fe66df48501ee623c873cc46c54"
+  },
+  "measured": {
+   "abstention": {
+    "control": {
+     "bar": 0.9,
+     "met": true,
+     "n": 48,
+     "rate": 1.0,
+     "refused": 48
+    },
+    "device": "cuda",
+    "gain_min": -0.0,
+    "loss_max": 1.1641,
+    "measured_at_utc": "2026-10-28T08:26:10.193195+00:00",
+    "n_outputs": 48,
+    "own_accepted": 44
+   },
+   "calibration": null,
+   "heldout": {
+    "best_epoch": 45,
+    "best_heldout_margin": 0.001465097311277179,
+    "best_within_noise": true,
+    "heldout_tracks": 2
+   },
+   "index_fresh": true,
+   "scorecard": true,
+   "served": {
+    "checkpoint": "best",
+    "epoch": 55,
+    "rule": "scorecard"
+   }
+  },
+  "model": {
+   "adapter_sha256": "2b8affad478fd0ab02677a3fe33f341e4c09f4dbe64977676d7c1b8c39b095dc",
+   "base_model": "mimetic-a0 (base)",
+   "base_model_commit": null,
+   "base_model_id": "mimetic-a0@base",
+   "base_model_licence": "MIT License",
+   "card_schema_version": "1.1.0",
+   "card_sha256": "84a38169a906fa1d5491a859be1c0accef396f2eab65fe5b5c92ee353ff3b923",
+   "checkpoint": "best",
+   "engine_commit": "9f91b67cba7b50b6b05e619d649b965666882f7f",
+   "machine_key_id": "392a6e0303aac31a",
+   "run_id": "run_20261027_222123_312336",
+   "trained_at_utc": "2026-10-27T22:54:59.886736+00:00",
+   "watermark_payload": 633,
+   "workshop_commit": "93a78b7"
+  },
+  "provenance": {
+   "config_hash": "bc73ed15fe551bfdf414511b5594764d7721397010c8dfc88391a76f3e3199ea",
+   "dataset_hash": "khaos.dataset_hash/2:673f87b4f587cdd0f1c89df4037d8a88343cbc18148ac3c02f05b31c592edd9d",
+   "seed": 42
+  },
+  "public_view": "tracks",
+  "published_at_utc": "2026-10-28T13:14:46.703855+00:00",
+  "record_version": "guild.register.record/1",
+  "training_set": {
+   "data_kinds": [
+    "sections of the full mix, each with a written description"
+   ],
+   "declaration": {
+    "declared": 0,
+    "layers": [
+     "composition",
+     "recording",
+     "performers",
+     "voices",
+     "society"
+    ],
+    "of": 12,
+    "version": "khaos.declaration/2"
+   },
+   "rights_sha256": "e93cc6e8e4eae449a89aa8e8b0a1bcaaa1917cad9fcb1f559b687b9bc7d2aa5d",
+   "tracks": [
+    {
+     "duration_sec": 137.661521,
+     "title": "01-1.5-Countdown-AUDIO-MUSIC-v2",
+     "track_id": "3tmli74al5ca2erg"
+    },
+    {
+     "duration_sec": 28.466313,
+     "title": "01-7.1-WINNER-AUDIO-MUSIC-v2",
+     "track_id": "4imnwptstsiwnq24"
+    },
+    {
+     "duration_sec": 67.970583,
+     "title": "03-7.1-WINNER-AUDIO-MUSIC-v2",
+     "track_id": "6rvvx2f5pv6uq6ih"
+    },
+    {
+     "duration_sec": 300.524396,
+     "title": "03-6.1-WalkToStage-Level3-LOOP-AUDIO-MUSIC-v3",
+     "track_id": "7tpau2pgriupcdle"
+    },
+    {
+     "duration_sec": 48.0,
+     "title": "01-2.3.1-Rules-level1-AUDIO-MUSIC-v2",
+     "track_id": "aenzo7y2bulpatxq"
+    },
+    {
+     "duration_sec": 667.714292,
+     "title": "01-2.2.1-Logo-IN-AUDIO-MUSIC-HARD-v2",
+     "track_id": "j74cw6wvzikrld5o"
+    },
+    {
+     "duration_sec": 28.0,
+     "title": "03-2.3.1-Rules-level3-AUDIO-MUSIC-v2",
+     "track_id": "lxfdl3utspwgkeik"
+    },
+    {
+     "duration_sec": 40.0,
+     "title": "02-2.3.1-Rules-level2-AUDIO-MUSIC-v2",
+     "track_id": "orz3vaqh3td6ejwr"
+    },
+    {
+     "duration_sec": 93.3875,
+     "title": "02-6.3-CheckingNumbers-AUDIO-MUSIC-v2",
+     "track_id": "vdxxofowf2jwcttg"
+    },
+    {
+     "duration_sec": 667.696375,
+     "title": "01-2.2.1-Logo-IN-AUDIO-MUSIC-SOFT-v2",
+     "track_id": "ywpiocani3apctzx"
+    },
+    {
+     "duration_sec": 73.142875,
+     "title": "01-2.2.2-Logo-LOOP-AUDIO-MUSICLOOP-v2",
+     "track_id": "zbtmrhi4jocb2xaz"
+    },
+    {
+     "duration_sec": 474.639437,
+     "title": "02-4.4-GeneratingNumbers-AUDIO-MUSIC-v2",
+     "track_id": "zyx2hd7xjegzadua"
+    }
+   ],
+   "tracks_without_rights": 0,
+   "writers_agreed": false
+  }
+ },
+ "record_sha256": "311265d21ebcec73717e8addb5c5874ed4cd4884f47715c9b5b93fb348cda8f2",
+ "serial": 65536,
+ "served": [],
+ "state": "registered",
+ "withdraw_reason": null,
+ "withdrawn_at": null
+}
