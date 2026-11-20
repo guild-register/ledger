@@ -1,0 +1,169 @@
+{
+ "countersignature": {
+  "countersigned_at_utc": "2026-11-20T09:42:55Z",
+  "record_sha256": "0c1a3411a090822c10acb7723b7d8a3fb8d5152d8cb527d7db555ccd8d0cf78f",
+  "register_key_id": "97052368d6a81754",
+  "register_signature": "af8849a1f8bf8996fe8909dafdf46c3ccba5dd654b57635786c992209f0a1b63a5abc06a41baf9a5fcb3506c6fb93bbd1b95646d46cd66545566e8c3df14620b",
+  "serial": 65538
+ },
+ "machine_key_id": "2046dbb32899b7c7",
+ "machine_public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfXAYcPNmClShMj4IjQ815J8Iv9NetganFh+Wg/iNdIQ=\n-----END PUBLIC KEY-----\n",
+ "record": {
+  "artist_id": "chris_green_dataset_theleap",
+  "artist_mark": "TL",
+  "artist_name": "The Leap",
+  "consent": {
+   "date": "2026-08-30",
+   "party": "Chris Green",
+   "scope": {
+    "commercial_outputs": true,
+    "generate": "platform_users"
+   },
+   "statement_sha256": "3030ea5424e1e08c6e1e9b4df8c318967880905b40e7eb90a90ca1e1196cb613"
+  },
+  "measured": {
+   "abstention": {
+    "control": {
+     "bar": 0.9,
+     "met": true,
+     "n": 48,
+     "rate": 1.0,
+     "refused": 48
+    },
+    "device": "cuda",
+    "gain_min": -0.0155,
+    "loss_max": 0.9459,
+    "measured_at_utc": "2026-11-20T02:22:26.079545+00:00",
+    "n_outputs": 48,
+    "own_accepted": 45
+   },
+   "calibration": null,
+   "heldout": {
+    "best_epoch": 143,
+    "best_heldout_margin": null,
+    "best_within_noise": null,
+    "heldout_tracks": 3
+   },
+   "index_fresh": true,
+   "scorecard": true,
+   "served": {
+    "checkpoint": "final",
+    "epoch": 143,
+    "rule": "named"
+   }
+  },
+  "model": {
+   "adapter_sha256": "0ce72659dd5e77682e86c11ec078d1fa4dbc4ceab65c742b30a14b3c5074bfd4",
+   "base_model": "stable-audio-3 (base)",
+   "base_model_commit": null,
+   "base_model_id": "stable-audio-3@base",
+   "base_model_licence": "Stability AI Community License",
+   "card_schema_version": "1.1.0",
+   "card_sha256": "5248fdbdeaba7d0f15833e85e8d9dc31ca6e07d4e898de4cd90fa48caa010458",
+   "checkpoint": "final",
+   "engine_commit": "77e0398c26f7d22d801ec1bb036307e8b231f741",
+   "machine_key_id": "2046dbb32899b7c7",
+   "run_id": "run_20261120_005337_366180",
+   "trained_at_utc": "2026-11-20T01:29:34.981250+00:00",
+   "watermark_payload": 693,
+   "workshop_commit": "7538544f"
+  },
+  "provenance": {
+   "config_hash": "148ba5bcdeb16161ef31ba2bd98c79a07a1f0239a43ed54615bee3f654d66156",
+   "dataset_hash": "khaos.dataset_hash/2:1ed8ca02eadcb604cfa9c24a49afad0255c9b359160d526cb2ba4117707e3341",
+   "seed": 42
+  },
+  "public_view": "tracks",
+  "published_at_utc": "2026-11-20T09:42:55.100386+00:00",
+  "record_version": "guild.register.record/1",
+  "training_set": {
+   "data_kinds": [
+    "sections of the full mix, each with a written description"
+   ],
+   "declaration": {
+    "by": "artist",
+    "declared": 12,
+    "layers": [
+     "composition",
+     "recording",
+     "performers",
+     "voices",
+     "society"
+    ],
+    "of": 12,
+    "version": "khaos.declaration/2"
+   },
+   "rights_sha256": "d70ab122943eef5d658249a1c12bd50327cc8f6f25e534af903f4954981217c9",
+   "tracks": [
+    {
+     "duration_sec": 209.032271,
+     "title": "CG_Cabin_WIP01_10-24-20-04_29_05_14",
+     "track_id": "2jxys4ezs7maibnn"
+    },
+    {
+     "duration_sec": 103.136062,
+     "title": "CG_TheLeap_Trailer_NewAudio_FullMix_WIP03_23_03_15",
+     "track_id": "2nhng47ujbsu6aqu"
+    },
+    {
+     "duration_sec": 688.0,
+     "title": "Cue4&5&6_OldEncounters_2ndConvo_Situps_Final_10-06-40-04_27_10_14",
+     "track_id": "6hd6kcczdz7urysg"
+    },
+    {
+     "duration_sec": 88.941187,
+     "title": "CG_SitUpsTheme_WIP01_10-16-28-23_29_05_14",
+     "track_id": "b5cjmsq4nizif552"
+    },
+    {
+     "duration_sec": 32.0,
+     "title": "CG_3Series_WIP01_MusicMix_10_03_13",
+     "track_id": "bxr3h5e4z244myn5"
+    },
+    {
+     "duration_sec": 66.0,
+     "title": "CG_Cabin_Idea_23_05_14",
+     "track_id": "c6ujmbnyxe5oayex"
+    },
+    {
+     "duration_sec": 156.0,
+     "title": "Cue1_DockIntro_Final_09-59-56-04_27_10_14",
+     "track_id": "d3fml3rrpcxeya74"
+    },
+    {
+     "duration_sec": 103.0,
+     "title": "CG_TheLeap_Trailer_NewAudio_FullMix_WIP02_23_03_15",
+     "track_id": "esga2ngha2v6mdtf"
+    },
+    {
+     "duration_sec": 252.0,
+     "title": "Cue7&8_Hologram_FightFull_Final_10-18-44-04_27_10_14",
+     "track_id": "hpwkwpzhc4cgzb2y"
+    },
+    {
+     "duration_sec": 78.0,
+     "title": "Cue3_Advert_Final_10-05-18-04_27_10_14",
+     "track_id": "qbbdwvteriore4x6"
+    },
+    {
+     "duration_sec": 310.5,
+     "title": "Cue9&10_ComeTogether_Cabin_Final_10-22-57-16_27_10_14",
+     "track_id": "rya6gro22eyuizw7"
+    },
+    {
+     "duration_sec": 104.0,
+     "title": "The_Leap_Final_Trailer_Music_WIP01_21_03_15",
+     "track_id": "y5fhrixxjawul2jm"
+    }
+   ],
+   "tracks_without_rights": 0,
+   "writers_agreed": false
+  }
+ },
+ "record_sha256": "0c1a3411a090822c10acb7723b7d8a3fb8d5152d8cb527d7db555ccd8d0cf78f",
+ "serial": 65538,
+ "served": [],
+ "state": "registered",
+ "withdraw_reason": null,
+ "withdrawn_at": null
+}
